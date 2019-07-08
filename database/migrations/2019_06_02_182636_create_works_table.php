@@ -17,10 +17,10 @@ class CreateWorksTable extends Migration
             $table->bigIncrements('id');
 
             $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
 
             $table->unsignedBigInteger('work_category_id');
-            $table->foreign('work_category_id')->references('id')->on('work_categories');
+            $table->foreign('work_category_id')->references('id')->on('work_categories')->onDelete('cascade');
 
             $table->string('title');
             $table->text('description');

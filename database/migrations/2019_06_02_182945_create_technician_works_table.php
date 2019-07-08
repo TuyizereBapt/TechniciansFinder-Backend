@@ -17,10 +17,10 @@ class CreateTechnicianWorksTable extends Migration
             $table->bigIncrements('id');
 
             $table->unsignedBigInteger('technician_id');
-            $table->foreign('technician_id')->references('id')->on('technicians');
+            $table->foreign('technician_id')->references('id')->on('technicians')->onDelete('cascade');
 
             $table->unsignedBigInteger('work_id');
-            $table->foreign('work_id')->references('id')->on('works');
+            $table->foreign('work_id')->references('id')->on('works')->onDelete('cascade');
 
             $table->string('start_time')->nullable();
             $table->string('end_time')->nullable();

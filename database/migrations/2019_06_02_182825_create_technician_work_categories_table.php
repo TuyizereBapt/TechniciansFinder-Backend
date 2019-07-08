@@ -16,9 +16,9 @@ class CreateTechnicianWorkCategoriesTable extends Migration
         Schema::create('technician_work_category', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedBigInteger('technician_id');
-            $table->foreign('technician_id')->references('id')->on('technicians');
+            $table->foreign('technician_id')->references('id')->on('technicians')->onDelete('cascade');
             $table->unsignedBigInteger('work_category_id');
-            $table->foreign('work_category_id')->references('id')->on('work_categories');
+            $table->foreign('work_category_id')->references('id')->on('work_categories')->onDelete('cascade');
             $table->timestamps();
         });
     }

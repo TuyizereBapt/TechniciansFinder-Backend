@@ -26,8 +26,13 @@ use Illuminate\Database\Eloquent\Model;
 class WorkCategory extends Model
 {
     protected $hidden = ['pivot'];
+
     public function technicians()
     {
         return $this->belongsToMany('App\Technician');
+    }
+    public function works()
+    {
+        return $this->hasMany('App\Work');
     }
 }

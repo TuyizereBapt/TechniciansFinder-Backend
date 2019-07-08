@@ -75,4 +75,13 @@ class WorkController extends Controller
         $works = Work::with('technicians')->where('user_id', '=', $id)->get();
         return response()->json($works, 200);
     }
+
+    public function getUserAllPostedWork($id)
+    {
+        $works = Work::join('work_categories','works.work_category_id','=','work_categories.id')
+            ->where('user_id', '=', $id)
+            ->select(['works.*','work_categories.category'])
+            ->get();
+        return response()->json($works, 200);
+    }
 }

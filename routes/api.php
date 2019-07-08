@@ -34,6 +34,7 @@ Route::post('/work-category/search', 'WorkCategoryController@searchByCategory');
 //Work Routes
 Route::apiResources(['/work' => 'WorkController']);
 Route::get('/work/suggestions/{id}', 'WorkController@getWorkSuggestions');
+Route::get('/user/work/{id}', 'WorkController@getUserAllPostedWork');
 
 
 //technicianWork(and Work Applications) Routes

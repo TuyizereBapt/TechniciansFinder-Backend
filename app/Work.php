@@ -50,4 +50,8 @@ class Work extends Model
             ->withTimestamps()
             ->groupBy('technician_works.technician_id');*/
     }
+
+    public function category(){
+        return $this->belongsTo('App\WorkCategory','	work_category_id');
+    }
 }

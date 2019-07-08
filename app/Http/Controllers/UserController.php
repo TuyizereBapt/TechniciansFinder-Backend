@@ -52,8 +52,9 @@ class UserController extends Controller
 
         $user = DB::table('users')
             ->where('email', $email)
-            ->where('role', 'user')
             ->first();
+
+//        ->where('role', 'user')
 
         if ($user) {
             if (Hash::check($password, $user->password)) {

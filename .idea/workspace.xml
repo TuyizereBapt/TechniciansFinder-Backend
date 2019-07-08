@@ -4,6 +4,7 @@
     <list default="true" id="3ce5f406-00ed-434a-913f-d6e6dcc092bd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.php" afterPath="$PROJECT_DIR$/routes/api.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,121 +19,103 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4645015">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/routes/api.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="243">
-                  <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="WorkController.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WorkController.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="421">
-                  <caret line="78" column="45" lean-forward="false" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
-                  <folding>
-                    <element signature="e#40#53#0#PHP" expanded="true" />
-                    <element signature="e#201#304#0#PHP" expanded="false" />
-                    <element signature="e#310#752#0#PHP" expanded="false" />
-                    <element signature="e#758#834#0#PHP" expanded="false" />
-                    <element signature="e#840#1348#0#PHP" expanded="false" />
-                    <element signature="e#1354#1458#0#PHP" expanded="false" />
-                    <element signature="e#1464#2103#0#PHP" expanded="false" />
-                    <element signature="e#2109#2282#0#PHP" expanded="false" />
-                    <element signature="e#2288#2607#0#PHP" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/routes/web.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Work.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Work.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="523">
-                  <caret line="54" column="72" lean-forward="false" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="WorkCategory.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/WorkCategory.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="472">
-                  <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#187#250#0#PHP" expanded="false" />
-                    <element signature="e#255#334#0#PHP" expanded="false" />
-                    <element signature="e#339#408#0#PHP" expanded="false" />
-                    <element signature="e#413#495#0#PHP" expanded="false" />
-                    <element signature="e#500#599#0#PHP" expanded="false" />
-                    <element signature="e#604#711#0#PHP" expanded="false" />
-                    <element signature="e#716#818#0#PHP" expanded="false" />
-                    <element signature="e#823#905#0#PHP" expanded="false" />
-                    <element signature="e#910#988#0#PHP" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#338#1430#0#PHP" expanded="false" />
-                    <element signature="e#2146#2206#0#PHP" expanded="false" />
-                    <element signature="e#2212#3323#0#PHP" expanded="false" />
-                    <element signature="e#3329#3397#0#PHP" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="api.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/routes/api.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="447">
-                  <caret line="47" column="55" lean-forward="false" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WorkController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="78" column="45" lean-forward="false" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
+              <folding>
+                <element signature="e#40#53#0#PHP" expanded="true" />
+                <element signature="e#201#304#0#PHP" expanded="false" />
+                <element signature="e#310#752#0#PHP" expanded="false" />
+                <element signature="e#758#834#0#PHP" expanded="false" />
+                <element signature="e#840#1348#0#PHP" expanded="false" />
+                <element signature="e#1354#1458#0#PHP" expanded="false" />
+                <element signature="e#1464#2103#0#PHP" expanded="false" />
+                <element signature="e#2109#2282#0#PHP" expanded="false" />
+                <element signature="e#2288#2607#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Work.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Work.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="54" column="72" lean-forward="false" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkCategory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/WorkCategory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#187#250#0#PHP" expanded="false" />
+                <element signature="e#255#334#0#PHP" expanded="false" />
+                <element signature="e#339#408#0#PHP" expanded="false" />
+                <element signature="e#413#495#0#PHP" expanded="false" />
+                <element signature="e#500#599#0#PHP" expanded="false" />
+                <element signature="e#604#711#0#PHP" expanded="false" />
+                <element signature="e#716#818#0#PHP" expanded="false" />
+                <element signature="e#823#905#0#PHP" expanded="false" />
+                <element signature="e#910#988#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="89" column="37" lean-forward="false" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="37" />
+              <folding>
+                <element signature="e#338#1430#0#PHP" expanded="false" />
+                <element signature="e#1436#2140#0#PHP" expanded="false" />
+                <element signature="e#2146#2206#0#PHP" expanded="false" />
+                <element signature="e#3377#3445#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -220,10 +203,10 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_06_02_182825_create_technician_work_categories_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_06_02_182945_create_technician_works_table.php" />
         <option value="$PROJECT_DIR$/app/WorkCategory.php" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Work.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/WorkController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
       </list>
     </option>
   </component>
@@ -579,12 +562,12 @@
       <workItem from="1562437245150" duration="1513000" />
       <workItem from="1562439464148" duration="7512000" />
       <workItem from="1562517247378" duration="12211000" />
-      <workItem from="1562586294373" duration="9731000" />
+      <workItem from="1562586294373" duration="10605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218450000" />
+    <option name="totallyTimeSpent" value="219324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1021,14 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WorkController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
@@ -1047,15 +1022,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="248">
+          <caret line="89" column="37" lean-forward="false" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="37" />
           <folding>
             <element signature="e#338#1430#0#PHP" expanded="false" />
+            <element signature="e#1436#2140#0#PHP" expanded="false" />
             <element signature="e#2146#2206#0#PHP" expanded="false" />
-            <element signature="e#2212#3323#0#PHP" expanded="false" />
-            <element signature="e#3329#3397#0#PHP" expanded="false" />
+            <element signature="e#3377#3445#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>

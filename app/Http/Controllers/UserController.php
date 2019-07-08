@@ -87,6 +87,7 @@ class UserController extends Controller
             'password.required' => 'Password is required!',
             'password.confirmed' => 'Passwords do not match!',
         ];
+        $role = $request->input('role', 'user');
 
         Validator::make($request->all(), [
             'f_name' => 'required',
@@ -100,7 +101,7 @@ class UserController extends Controller
             'l_name' => $request->input('l_name'),
             'email' => $request->input('email'),
             'phone' => $request->input('phone'),
-            'role' => 'user',
+            'role' => $role,
             'password' => Hash::make($request->input('password')),
         ]);
     }

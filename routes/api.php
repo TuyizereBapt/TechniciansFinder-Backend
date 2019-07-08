@@ -18,6 +18,9 @@ Route::get('/user', function (Request $request) {
     return App\User::all();
 });
 
+Route::post('/user/register', 'UserController@register');
+
+
 Route::apiResources(['/technicians' => 'TechnicianController']);
 Route::put('/technicians/image/update/{id}', 'TechnicianController@updateProfileImage');
 Route::post('/technicians/location/update', 'TechnicianController@updateLocation');

@@ -6,6 +6,11 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+    public function index()
+    {
+        return view('index');
+    }
+
     public function home()
     {
         return view('home');
@@ -22,12 +27,10 @@ class HomeController extends Controller
     {
         return view('dashboard.index');
     }
-
     public function technicians()
     {
         return view('dashboard.technicians.technicians');
     }
-
     public function newTechnicianForm()
     {
         return view('dashboard.technicians.newTechnician');

@@ -32,14 +32,6 @@ Vue.component('Login', require('./components/Login.vue').default);
 import axios from 'axios'
 Vue.use(axios)
 
-import * as VueGoogleMaps from "vue2-google-maps";
-Vue.use(VueGoogleMaps, {
-    load: {
-        key: "AIzaSyD5PB2PiYBu5VGyFntV40mzzxtfThpitI8",
-        // libraries: "places" // necessary for places input
-    }
-});
-
 const app = new Vue({
     el: '#app',
 });
